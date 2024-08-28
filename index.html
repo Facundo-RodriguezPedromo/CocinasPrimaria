@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe Selector</h1>
+        <div class="recipe-selector">
+            <label for="recipe">Choose a recipe:</label>
+            <select id="recipe" onchange="loadRecipe()">
+                <option value="">Select a recipe...</option>
+                <option value="pasta">Pasta</option>
+                <option value="salad">Salad</option>
+                <option value="pancakes">Pancakes</option>
+            </select>
+        </div>
+
+        <div class="servings-input">
+            <label for="servings">Number of servings:</label>
+            <input type="number" id="servings" value="1" min="1" onchange="updateServings()">
+        </div>
+
+        <div id="recipe-details" class="recipe-details">
+            <!-- Recipe details will be displayed here -->
+        </div>
+    </div>
+
+    <script>
+        
+    </script>
+</body>
+</html>
