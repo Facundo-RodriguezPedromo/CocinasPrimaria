@@ -1,0 +1,35 @@
+{
+  "recetas": [
+    {
+      "titulo": "Pasta con verdusalsa",
+      "descripcion": "Una deliciosa combinación de pasta con salsa de verduras frescas.",
+      "imagen": "img/PastaConVerdusalsa.png",
+      "ingredientes": [
+        { "nombre": "Pasta", "peso_por_porcion": 60 },
+        { "nombre": "Carne picada o cubos", "peso_por_porcion": 50 },
+        { "nombre": "Pulpa de tomate", "peso_por_porcion": 40 },
+        { "nombre": "Cebolla", "peso_por_porcion": 10 },
+        { "nombre": "Zanahoria", "peso_por_porcion": 40 },
+        { "nombre": "Morron", "peso_por_porcion": 15 },
+        { "nombre": "Zapallito", "peso_por_porcion": 50 },
+        { "nombre": "Queso rallado", "peso_por_porcion": 5 },
+        { "nombre": "Sal", "peso_por_porcion": 1 },
+        { "nombre": "Oregano", "peso_por_porcion": 0.15 },
+        { "nombre": "Pimenton", "peso_por_porcion": 0.05 },
+        { "nombre": "Aceite", "peso_por_porcion": 10 },
+        { "nombre": "Laurel", "peso_por_porcion": "1 hoja" }
+      ]
+    },
+
+    {
+      "titulo": "Pan de carne hamburguesa",
+      "descripcion": "En circulos, la hamburguesa redonda capta mas al niño",
+      "imagen": "img/PanDeCarne.png",
+      "ingredientes": [
+        { "nombre": "Carne", "peso_por_porcion": 60 },
+        { "nombre": "Avena", "peso_por_porcion": 10 },
+        { "nombre": "Huevo", "peso_por_porcion": 15 }
+      ]
+    }
+  ]
+}

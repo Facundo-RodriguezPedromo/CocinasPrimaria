@@ -1,0 +1,114 @@
+/* Estilos generales */
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #013b75;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Barra de navegación */
+.navbar-brand {
+    color: #013b75;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #013b75;
+}
+
+/* La seccion seleccionada en nav sera naranja */
+.nav-item .nav-link.active {
+    color: #f77308;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 255, 0.5);
+}
+
+/* Tarjetas de recetas */
+.card {
+    background-color: #f8b87dd3;
+    border: 3px solid #03245a;
+    box-shadow: 3 9px 18px rgba(2, 5, 230, 0.925);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #021427;
+    font-size: 2rem;
+}
+
+.card-text {
+    color: #940707;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Modal */
+.modal-content {
+    background-color: #ffffff;
+    border: 1px solid #d1d9e6;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    border-bottom: 2px solid #00aaff;
+}
+
+.modal-title {
+    color: #003366;
+}
+
+.modal-body h6 {
+    color: #003366;
+}
+
+.modal-body ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.modal-body ul li {
+    padding: 4px 0;
+    color: #666;
+}
+
+/* Footer */
+footer div {
+    background-color: #91b5d8;
+    color: #db0a0a;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: auto;
+    /* Empuja el footer al fondo */
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #021e47;
+}
+
+footer a {
+    color: #013b75;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

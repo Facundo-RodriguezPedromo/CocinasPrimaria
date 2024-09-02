@@ -10,12 +10,12 @@
     <meta name="description" content="Recetas para escuelas de ANEP">
     <meta name="keywords" content="Recetarios primaria">
     <!--Icono de la pestaña moñita azul-->
-    <link rel="icon" href="../CocinasPrimaria/img/Logo/MoñitaLogo.png" type="image/png">
+    <link rel="icon" href="/CocinasPrimaria/img/Logo/MoñitaLogo.png" type="image/png">
     <!--Link principal Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
     <!--para que se respeten mis estilos mi CSS va debajo de link bootstrap-->
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="/CocinasPrimaria/css/index.css">
 </head>
 
 <body>
@@ -24,7 +24,8 @@
         <div class="container">
             <!-- Logo con imagen -->
             <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="img/Logo/MoñitaLogo.png" alt="Logo" style="width: 35px; height: auto; margin-right: 10px;">
+                <img src="/CocinasPrimaria/img/Logo/MoñitaLogo.png" alt="Logo"
+                    style="width: 35px; height: auto; margin-right: 10px;">
                 Cocinas | ANEP
             </a>
             <!-- Btn menu hamburguesa -->
@@ -35,10 +36,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/CocinasPrimaria/index.html">Recetas</a>
+                        <a class="nav-link" aria-current="page" href="/CocinasPrimaria/index.html">Recetas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/CocinasPrimaria/html/planificacion.html">Planificación</a>
+                        <a class="nav-link active" href="/CocinasPrimaria/html/planificacion.html">Planificación</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/CocinasPrimaria/html/usuario.html">Usuario</a>
@@ -48,41 +49,16 @@
         </div>
     </nav>
 
-    <div class="container mt-5">
-        <div class="row" id="recipe-container">
-            <!-- Aquí se insertarán las tarjetas de las recetas desde script.js -->
-        </div>
-    </div>
+    <main>
+        <h2>Pagina para la planificacion</h2>
+        <p>Aqui deberiamos hacer ofertas de posibles planificaciones, semanales, mensuales, quizas presentarlas
+            igual que las recetas en tarjetas y que cuando ingreses a una te muestre las recetas para cada dia
+            deberias poder agregar la planificacion que mas te gusta a tu perfil para poder trabajarla, editarla y
+            en cada dia que das ok se ingresaran los datos
 
-    <!-- Modal para mostrar los ingredientes y peso por porcion "a futuro debe calcular sumando comensales"-->
-    <div class="modal fade" id="recipeModal" tabindex="-1" aria-labelledby="recipeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="recipeModalLabel">Ingredientes y Peso por Porción</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h6>Ingredientes</h6>
-                                <ul id="ingredients-list">
-                                    <!-- carga datos dinámicamente -->
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <h6>Peso por Porción</h6>
-                                <ul id="weights-list">
-                                    <!-- carga datos dinámicamente -->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+            quizas tambien dentro de esta seccion encontrar piques para la cocina, videos
+        </p>
+    </main>
 
     <!-- Pie de página contacto para el usuario -->
     <footer class="bg-light py-4 mt-auto">
