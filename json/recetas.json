@@ -2,7 +2,7 @@
   "recetas": [
     {
       "titulo": "Pasta con verdusalsa",
-      "descripcion": "Una deliciosa combinación de pasta con salsa de verduras frescas.",
+      "descripcion": "Describir si se usa en algun momento",
       "imagen": "img/PastaConVerdusalsa.png",
       "ingredientes": [
         { "nombre": "Pasta", "peso_por_porcion": 60 },
@@ -17,18 +17,42 @@
         { "nombre": "Oregano", "peso_por_porcion": 0.15 },
         { "nombre": "Pimenton", "peso_por_porcion": 0.05 },
         { "nombre": "Aceite", "peso_por_porcion": 10 },
-        { "nombre": "Laurel", "peso_por_porcion": "1 hoja" }
+        { "nombre": "Laurel", "peso_por_porcion": "concidera el cocinero" }
       ]
     },
 
     {
       "titulo": "Pan de carne hamburguesa",
-      "descripcion": "En circulos, la hamburguesa redonda capta mas al niño",
+      "descripcion": "Describir si se usa en algun momento",
       "imagen": "img/PanDeCarne.png",
       "ingredientes": [
         { "nombre": "Carne", "peso_por_porcion": 60 },
         { "nombre": "Avena", "peso_por_porcion": 10 },
-        { "nombre": "Huevo", "peso_por_porcion": 15 }
+        { "nombre": "Huevo (45g = 1 huevo)", "peso_por_porcion": 15 },
+        { "nombre": "Zanahoria", "peso_por_porcion": 20 },
+        { "nombre": "Cebolla", "peso_por_porcion": 20 },
+        { "nombre": "Morrón", "peso_por_porcion": 10 },
+        { "nombre": "Sal", "peso_por_porcion": 0.5 },
+        { "nombre": "Perejil fresco", "peso_por_porcion": 1 },
+        { "nombre": "Ajo", "peso_por_porcion": 1 },
+        { "nombre": "Aceite (asadera)", "peso_por_porcion": 5 }
+      ]
+    },
+
+    {
+      "titulo": "Ensalada completa de pollo",
+      "descripcion": "Describir si se usa en algun momento",
+      "imagen": "img/EnsaladaCompletaDePollo.png",
+      "ingredientes": [
+        { "nombre": "Arroz", "peso_por_porcion": 50 },
+        { "nombre": "Lentejas", "peso_por_porcion": 20 },
+        { "nombre": "Suprema de pollo", "peso_por_porcion": 50 },
+        { "nombre": "Zanahoria", "peso_por_porcion": 40 },
+        { "nombre": "Tomate", "peso_por_porcion": 40 },
+        { "nombre": "Choclo", "peso_por_porcion": 20 },
+        { "nombre": "sal", "peso_por_porcion": 0.75 },
+        { "nombre": "Aceite", "peso_por_porcion": 5 },
+        { "nombre": "Mayonesa vegetal", "peso_por_porcion": 15 }
       ]
     }
   ]

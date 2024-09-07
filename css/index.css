@@ -7,41 +7,52 @@ body {
 
 body {
     font-family: 'Arial', sans-serif;
-    background: #013b75;
+    background: #0542A6;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-/* Barra de navegación */
-.navbar-brand {
-    color: #013b75;
+/* ----Barra de navegación---- */
+
+/*Letras en el nav*/
+.navbar-brand,
+.nav-link {
+    color: #0542A6;
+    /*color de pagina primaria original-hacer variable*/
     font-weight: bold;
 }
 
-.nav-link {
-    color: #013b75;
-}
+
 
 /* La seccion seleccionada en nav sera naranja */
 .nav-item .nav-link.active {
     color: #f77308;
     font-weight: bold;
-    font-size: 1.25rem;
-    text-shadow: 2px 2px 5px rgba(0, 0, 255, 0.5);
+    /* font-size: 0.25rem; */
+    text-shadow: 2px 2px 5px rgba(5, 66, 166, 0.5);
 }
 
 /* Tarjetas de recetas */
 .card {
-    background-color: #f8b87dd3;
-    border: 3px solid #03245a;
-    box-shadow: 3 9px 18px rgba(2, 5, 230, 0.925);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(236, 239, 248, 0.623);
+    border: 3px solid #f77308;
+    border-radius: 7px;
+    box-shadow: 3px 6px 15px rgba(0, 0, 139, 0.582),
+        inset 0 0 10px rgba(192, 192, 192, 0.5);
+    /* Líneas plateadas internas desde los bordes */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    padding: 0px;
+    max-width: 300px;
+    margin: 0px;
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 165, 0, 1);
+    transform: scale(1.02);
+    box-shadow: 5px 10px 20px rgba(0, 0, 139, 0.8),
+        inset 0 0 35px rgba(192, 192, 192, 0.8);
+    /* Líneas plateadas más brillantes desde los bordes*/
 }
 
 .card-title {
@@ -50,7 +61,7 @@ body {
 }
 
 .card-text {
-    color: #940707;
+    color: rgba(8, 2, 65, 0.644);
 }
 
 .card-img-top {

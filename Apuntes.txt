@@ -1,0 +1,4 @@
+En las recetas la hoja de laurel no se multiplica, por lo tento en el modal de comensales y porciones se muestra NAN cuando agregamos comensales, deberis mostrarse siempre una hoja o a consideraciond del cocinero... Lo mismo para los huevos se calcula 45 o 50g por huevo, se podria cargar las recetas ya con los gramos de los huevos y no con las cantidades como ya tiene el recetario
+
+dentro del modal que muestra los ingredientes y porciones, deberiamos agregar una imagen chica que si le haces click se muestra otra imagen donde se muestra el procedimiento de la receta para cocinarla y las variantes que puede tener, hacer capturas del recetrio de primaria original... y muestra acalaraciones como la temperatura de servicio por ejemplo
+
